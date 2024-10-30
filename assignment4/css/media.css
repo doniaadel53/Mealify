@@ -1,0 +1,259 @@
+.xsm-100{
+    width: 100%;
+}
+.xsm-50{
+    width: 50%;
+}
+.xsm-33{
+    width: 33.3%;
+}
+.xsm-25{
+    width: 25%;
+}
+.xsm-20{
+    width: 20%;
+}
+/* Extra small devices (phones, 600px and down) */
+@media  screen and (max-width: 766px) {
+    /* home-section */
+    .home .navbar ul a li{
+        float: none;
+        display: none;
+    }
+    .navbar i{
+        display:inline-block;
+        position: absolute;
+        right: 50px;
+        margin-block: 20px;
+        font-size: 25px;
+    }
+    .navbar i:hover{
+        color:#ff305b ;
+    }
+    .navbar i:hover ul{
+        position: relative;
+        display: block;
+        opacity: 1;
+        visibility: visible;
+        border-color: aqua;
+    }
+    .home .home-content{
+        text-align: center;
+    margin-top: 170px;
+    
+    }
+    .home .home-content .first{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .home .home-content .second{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .home .home-content h1{
+        font-size: 32px;
+    }
+    /* about-section */
+    div.about{
+        padding-block: 60px;
+    }
+    .about .container{
+        width: 80% ;
+        margin: auto;
+    }
+        
+    .about .image{
+        border: 0;
+        float: none;
+        width: 100%;
+        position: static;
+        left: 0;
+        padding-right: 35px;
+    }
+    .about .image img{
+        vertical-align: middle;
+        width: 100%;
+position: relative;
+top: 0;
+left: 0;
+
+    }
+   
+    .about .image .img .layer i{
+        margin-top: 250px;
+    }
+    .about .about-content{
+        float: 0;
+        width: 100%;
+        padding: 0;
+        margin-top: 40px;
+    }
+    .about .about-content ul {
+        overflow: auto;
+        float: 0;
+        width: 100%;
+    }
+    .about .about-content ul li{
+        float: none;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .about .about-content .btn a#last{
+    
+     display: inline-block;
+     margin-left: 0;
+    }
+    /* services-section */
+     .service-content .card{
+        width: 100%;
+    }
+    /* potfolio-section */
+    .portfolio{
+        padding-top: 60px;
+        padding-bottom: 30px;
+        margin: 0;
+    }
+    .portfolio .image{
+        float: none;
+        width: 100%;
+    }
+    /* counter-section */
+    .counter{
+        padding-top: 60;
+        padding-bottom: 30px;
+    }
+    .counter-content .card{
+        float: none;
+        width: 100%; 
+    }
+    /* client-section */
+    .client .container{
+        width: 90%;
+    }
+    .client .content .image{
+        position: relative;
+        top:10px;
+        left: 30px;
+        float: none;
+        width: 25%;
+        margin: auto;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .client .content .text{
+        float: none;
+        width: 100%;
+    }
+    .client .content .image img{
+        z-index: 0;
+    }
+    /* blog-section */
+    .blog{
+        padding-top: 60px;
+        padding-bottom: 30ox;
+    }
+.blog .container{
+    width: 90%;
+    margin: auto;
+}
+.blog .card{
+    width: 100%;
+}
+/* form-section */
+    .form .container{
+        width: 90%;
+        margin: auto;
+        padding-block: 30px;
+    }
+    .form .first input{
+        width: 100%;
+        margin-block: 15px;
+    }
+    .form .btn a {
+        width: 35%;
+        margin-left: 0;
+    /* footer */
+    }
+    .footer{
+        padding-block: 35px;
+    }
+    .footer .container{
+        width: 90%;
+        margin: auto;
+    }
+    
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media  screen and (min-width: 766px) and (max-width: 1248px) {
+    
+    /* about-section */
+    div.about{
+        padding-top: 60px;
+        padding-bottom: 60;
+    }
+    .about .container{
+        width: 90%;
+    }
+    .about .image{
+        border: none;
+        width: 35%;
+    }
+    .about .about-content{
+      line-height: 1;
+      width: 65%;
+      font-size: 12px;
+    }
+    .about .about-content ul {
+   list-style: outside none;
+   overflow: hidden;
+    }
+    .about .image .img .layer i{
+        margin-top: 130px;
+    }
+    /* services-section */
+    .service-content .card{
+ float: none;
+        display: inline-block;
+        width: 49.5%;
+    }
+    /* portfolio-section */
+    .portfolio{
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    .portfolio .image{
+        width: 50%;
+    }
+    /* counter-section */
+    .counter{
+        padding-block: 70ox;
+    }
+    /* client-section */
+    .client .container{
+        width: 90%;
+    }
+    /* blog-section */
+    .blog{
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    /* form-section */
+    .form .container{
+        width: 70%;
+        margin: auto;
+    }
+    .form .first input{
+        width: 47%;
+        margin: auto;
+    }
+    /* footer */
+    .footer{
+        margin-top: 30px;
+    }
+    .footer .container{
+        width: 90%;
+        margin: auto;
+    }
+}

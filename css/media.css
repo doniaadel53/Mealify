@@ -1,0 +1,249 @@
+
+
+@media only screen and (max-width: 1200px) {
+
+    /* navbar-section */
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    .container .icon a i#bars {
+        display: inline-block;
+        color: black;
+    }
+
+    .container .nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100px;
+    }
+
+    .container .icon a i#bars:hover {
+        color: hsl(0, 84%, 44%);
+    }
+
+    body:has(a#bars:target).container .nav-links {
+        transform: translateX(-50%);
+    }
+/* gallery-section */
+    div#gallery .gallery {
+        height: 854px;
+    }
+
+    div#gallery .gallery .item {
+        width: calc(calc(100%-(1.25rem)*2)/3);
+        gap: 1.25rem;
+    }
+/* contact-section */
+    div#contact .container ul.list li .icon {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    div#contact .container ul.list li .details p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    /* home-section */
+    div#home {
+        padding-block: 80px;
+
+    }
+
+    div#home .container {
+        flex-direction: column;
+    }
+
+    .container .nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100px;
+    }
+
+    div#home .image {
+        width: 100%;
+    }
+
+    div#home .content {
+        margin-block: 30px;
+        width: 60%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* chefs-section */
+    div#chefs .container .cards {
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    div#chefs .container .cards .card {
+        width: 48%;
+    }
+/* gallery-section */
+    div#gallery .gallery {
+        height: 1600px;
+    }
+
+    div#gallery .gallery .item {
+        width: calc(calc(100% - 1.25rem) / 2);
+    }
+
+    div#gallery .gallery #pizza {
+        order: -2;
+    }
+
+    div#gallery .gallery #burger {
+        order: -1;
+    }
+
+    div#gallery .gallery #frittat {
+        order: 1;
+    }
+
+    div#gallery .gallery #beef {
+        order: 2;
+    }
+
+    div#gallery .gallery #chicken {
+        order: 3;
+    }
+
+    div#gallery .gallery #kbab {
+        order: 4;
+    }
+/* contact-section */
+    div#contact .container ul.list li .icon {
+        font-size: 14px;
+    }
+
+    div#contact .container ul.list li {
+        margin-inline: 0;
+        width: 100%;
+    }
+
+    div#contact .form .first {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div#contact .form .first input {
+        width: 100%;
+    }
+
+    div.footer .container {
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    div.footer .container .section-one {
+        width: 55%;
+    }
+
+    div.footer .container .section-two {
+        width: 100%;
+        order: 1;
+    }
+
+    div.footer .container .section-three {
+        width: 39%;
+    }
+}
+
+@media only screen and (max-width:720px) {
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+/* navbar-section */
+    .container .nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100px;
+    }
+/* home-section */
+    div#home .content {
+        width: 100%;
+    }
+
+    div#home .content .btn a[href="#contact"] {
+        border-radius: 500px;
+    }
+
+    /* chefs-section */
+
+    div#chefs .container {
+        width: 85%;
+        margin: auto;
+    }
+
+    div#chefs .container .cards .card {
+        width: 100%;
+    }
+/* gallery-section */
+    div#gallery .gallery {
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    div#gallery .gallery .item {
+        width: 100%;
+    }
+
+    div#gallery .gallery .pizza {
+        order: -5;
+    }
+
+    div#gallery .gallery .burger {
+        order: 1;
+    }
+/* contact-section */
+    div#contact .container ul.list li {
+        width: 100%;
+    }
+/* footer-section */
+    div.footer .container .section-one {
+        width: 100%;
+    }
+
+    div.footer .container .section-two {
+        width: 100%;
+        order: 1;
+    }
+
+    div.footer .container .section-three {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width:412px) {
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    div#contact .container ul.list li .details {
+        font-size: 10px;
+        width: 100%;
+    }
+}
